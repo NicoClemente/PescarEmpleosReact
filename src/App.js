@@ -1,14 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+
+//import './App.css';
+import NavBarPescar from './components/Navbar';
+import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App"><NavBarPescar />
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+
+        
+        
         <p>
-         
+         hola 
         </p>
         <a
           className="App-link"
@@ -18,7 +22,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header><Footer />
     </div>
   );
 }
